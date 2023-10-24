@@ -61,10 +61,10 @@ export function Home() {
                 ))}
               </Cards>
             </Section>
-            <Section title="Pratos principais">
+            <Section title="Sobremesas ">
               <Cards>
                 {!mainCourses ? <p>Sem resultados</p> : ""}
-                { mainCourses && mainCourses.map((mainCourse) => (
+                { mainCourses && mainCourses.slice().reverse().map((mainCourse) => (
                   <CardData key={String(mainCourse.id)} image={`${api.defaults.baseURL}/files/${mainCourse.image}`} name={mainCourse.name} description={mainCourse.description} price={mainCourse.price} isbiggerfont buttons onClick={() => handleDetails(mainCourse.id)} />
                 ))}
               </Cards>

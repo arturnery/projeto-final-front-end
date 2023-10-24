@@ -28,7 +28,7 @@ export function SignIn() {
         <Input id="email" type="email" border labelContent="Email" lesspace placeholder="Exemplo: exemplo@exemplo.com.br" onChange={e => setEmail(e.target.value)}/>
         <Input id="password" border type="password" labelContent="Senha" lesspace placeholder="No mínimo 6 caracteres" min="6" onChange={e => setPassword(e.target.value)}/>
         <Button title="Entrar" isbiggerfont onClick={handleSignIn}/>
-        <TextButton to="/register" title="Criar conta" />
+        <TextButton to="/register" title="Criar uma conta" />
       </ContentBox>
     </Container>
   )
