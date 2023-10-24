@@ -24,12 +24,12 @@ Para fazer login com outra conta, basta criar um novo usuário:
 - criar conta
 
 Você pode acessar a versão online do projeto : [AQUI](https://stupendous-tapioca-d0024b.netlify.app/), ou executá-lo localmente. 
-Para informações de como executar o front-end localmente, consulte segue o tutorial:
-.
+
+<br>
+
+Para informações de como executar o front-end localmente, segue o tutorial:
 
 ## Como Instalar:
-
-Para rodar localmente, siga estas etapas:
 
 Clone este repositório em sua máquina local:
 
@@ -53,14 +53,7 @@ Inicie o projeto:
 ```bash
     npm run dev
 ```
-
-Após isso, coloque em seu navegador na barra de navegacao o endereço "Local" que ira aparecer no terminal.
-
-## Relacionados
-
-Segue o projeto back-end desta aplicação:
-
-[FoodExplorer Back-end](https://github.com/HenricoAngolera/food_explorer_backend)
+Após isso, abra o navegador e acesse o endereço local que será exibido no terminal.
 
 ## Considerações finais
 
