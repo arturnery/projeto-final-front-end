@@ -1,66 +1,60 @@
-# FoodExplorer Front-end
+# Cardápio Digital - Projeto Final da Rocketseat (Front-end)
 
 <p align="center">
   <img alt="FoodExplorer" src="./src/assets/images/foodexplorer.png" width="100%">
 </p>
 
-Para acessar o projeto no ar, clique aqui [AQUI](https://food-explorer-front-end.netlify.app/) ou visite o repositório [Back-end](https://github.com/HenricoAngolera/food_explorer_backend)
+Para acessar o projeto online, clique aqui [AQUI](https://stupendous-tapioca-d0024b.netlify.app/) ou se preferir visite o repositório [Back-end](https://github.com/arturnery/projeto-final-back-end)
 
-Este é projeto é o front-end do desafio final do Explorer da Rocketseat, ele consiste em um e-comerce de restaurante figurativo. E usei as seguintes tecnologias:
+Este projeto é desenvolvido como parte do desafio final do curso da Rocketseat(Front-end). Ele representa um cardapio digital que pode ser usado como modelo para diversos tipos de estabelecimento de comida online.
 
-## Stack utilizada
+## Tecnologias Utilizadas
 
-**Front-end:** ReactJS, Vite, Styled-Components, React-Router-DOM, axios, jwt-decode
+**Front-end:** ReactJS, Vite, Styled-Components, React-Router-DOM, Axios, jwt-decode.
 
-## Usuários Cadastrados
+## Como Utilizar
 
-Para acessar o sistema como usuário administrador, você pode usar as seguintes credenciais no login:
+Para acessar o sistema como usuário administrador, utilize as seguintes credenciais no login:
 
 - email: admin@email.com
 - senha: 123456
 
-Você pode cadastrar um novo usuário comum, ou usar um já cadastrados:
+Para fazer login com outra conta, basta criar um novo usuário:
 
-- email: henrico@email.com
-- senha: 123456
+- criar conta
 
-## Como utilizar:
+Você pode acessar a versão online do projeto : [AQUI](https://stupendous-tapioca-d0024b.netlify.app/), ou executá-lo localmente. 
+Para informações de como executar o front-end localmente, consulte segue o tutorial:
+.
 
-Você pode acessar o projeto online: [https://food-explorer-front-end.netlify.app/](https://food-explorer-front-end.netlify.app/) , ou rodar localmente.
+## Como Instalar:
 
-Para rodar localmente, siga os seguintes passos:
+Para rodar localmente, siga estas etapas:
 
-Primeiramente, você precisa tem instalado Git e NodeJS para executar este projeto.
-
-Com tudo instalado, você pode clonar este projeto, rodando no teminal com a pasta da sua preferência:
-
-```bash
-    git clone https://github.com/HenricoAngolera/food_explorer_frontend.git
-
-    # ou
-
-    git clone git@github.com:HenricoAngolera/food_explorer_frontend.git
-```
-
-Com o projeto clonado, você entra na pasta que foi criada após esse processo:
+Clone este repositório em sua máquina local:
 
 ```bash
-    cd food_explorer_frontend
+    git clone https://github.com/arturnery/projeto-final-front-end
+
+```
+Acesse o diretório do projeto:
+
+```bash
+     cd seu-repositorio-front-end
 ```
 
-Para instalar os pacotes da pasta node_modules, rodar o seguinte comando:
+Instale as dependências:
 
 ```bash
     npm install
 ```
-
-Então, podar o seguinte comando para iniciar o projeto:
+Inicie o projeto:
 
 ```bash
     npm run dev
 ```
 
-Após isso, acesse em seu navegador o endereço que aparecer no terminal.
+Após isso, coloque em seu navegador na barra de navegacao o endereço "Local" que ira aparecer no terminal.
 
 ## Relacionados
 
@@ -70,8 +64,8 @@ Segue o projeto back-end desta aplicação:
 
 ## Considerações finais
 
-Estes projetos, tanto o front-end quanto o back-end representam muito do que aprendi nos últimos tempos, fiquei muito satisfeito com minha evolução, mas vou evoluir ainda mais! Este projeto será melhorado ao longo do tempo, obrigado por ler até aqui! 
+Este projeto é o resultado de todo o aprendizado adquirido ao longo do curso do Explorer da Rocketseat. Estou satisfeito com a evolução e como enfrentei as dificuldades que surgiram no caminho.
 
 ## Feedback
 
-Se você tiver algum feedback, por favor me deixe saber por meio de henrico.an@gmail.com
+Se você tiver interesse em fornecer feedback ou colaborar de alguma forma, entre em contato pelo  e-mail [arturnery1997@gmail.com]

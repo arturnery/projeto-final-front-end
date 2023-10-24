@@ -89,7 +89,7 @@ export function NewDish() {
       <Header admin />
 
       <Scroll>
-        <Form title="Novo prato">
+        <Form title="Adicionar prato">
           <LineOne>
             <SelectImage>
               <label>Imagem do Prato</label>

@@ -142,7 +142,7 @@ export function UpdateDish() {
           <Form title="Editar prato">
             <LineOne>
               <SelectImage>
-                <label>Imagem do prato</label>
+                <label>Imagem do Prato</label>
                 <input type="file" id="imageDish" onChange={handleSelectedImage} />
                 <label htmlFor="imageDish">
                   <FiUpload />
